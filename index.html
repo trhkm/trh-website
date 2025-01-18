@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Hikma National Stream</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.raed.net/img?id=1187395');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgba(0, 51, 102, 0.8); /* ?? ????? ?????? ??????? ????? ???? */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative; /* ???? ????? ???? ??? ?????? */
+        }
+
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: scale(1.1); /* ????? ?????? ??? ??????? */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            transition: transform 0.3s ease;
+        }
+
+        header h1:hover {
+            transform: translateY(-5px); /* ??? ??????? ??? ??????? */
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 5px;
+        }
+
+        /* ????? ??? ?????? */
+        .flag-iraq {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50px; /* ????? ????? ????? ??? ?????? */
+            height: auto;
+            z-index: 10; /* ?????? ?? ?? ????? ???? ??? ???? ??????? */
+            cursor: pointer;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            animation: fadeIn 1s forwards; /* ????? ???? ??????? */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            font-size: 2em;
+            transition: transform 0.3s ease;
+        }
+
+        .about h2:hover {
+            transform: translateX(10px); /* ????? ??????? ??? ?????? ??? ??????? */
+        }
+
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact:hover {
+            background-color: #e9ecef; /* ????? ??????? ??? ??????? */
+        }
+
+        .contact h3 {
+            margin-bottom: 15px;
+            color: #003366;
+            font-size: 1.8em;
+            transition: color 0.3s ease;
+        }
+
+        .contact h3:hover {
+            color: #0056b3; /* ????? ????? ??? ??????? */
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            margin: 8px 0;
+            color: #555;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+            font-size: 1em;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        footer:hover {
+            background-color: #002b59; /* ????? ??????? ??? ??????? */
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            .about h2 {
+                font-size: 1.8em;
+            }
+
+            .about p {
+                font-size: 1.1em;
+            }
+
+            .contact h3 {
+                font-size: 1.5em;
+            }
+
+            .contact p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.raed.net/img?id=1187401" alt="Al-Hikma National Stream Logo">
+        <a href="https://t.me/trh_km" target="_blank">
+            <img class="flag-iraq" src="https://www.raed.net/img?id=1187407" alt="Iraq Flag"> <!-- ??? ?????? -->
+        </a>
+        <h1>Al-Hikma National Stream</h1>
+        <p>Wisdom Pioneers Organization - Towards a Bright Future</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>
+                Al-Hikma National Stream is a dynamic movement aimed at achieving sustainable development and future progress in line with the aspirations of society. 
+                Our vision is to build a strong and cohesive community based on wisdom and belonging.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h3>Responsible: Kazem Al-Majdi</h3>
+            <p><strong>Email:</strong> example@email.com</p>
+            <p><strong>Phone:</strong> 123-456-7890</p>
+            <p><strong>Address:</strong> Baghdad, Iraq</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Al-Hikma National Stream - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
